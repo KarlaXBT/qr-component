@@ -1,4 +1,52 @@
 /* GLOBAL STYLES */
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  height: 100vh;
+  background-color: hsl(212, 45%, 89%);
+}
+
+/* QR COMPONENT */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.qr-component {
+  width: 280px;
+  padding: 16px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.qr-component__image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.qr-component__text {
+  padding: 10px;
+}
+
+.qr-component__heading {
+  font-size: 20px;
+  color: hsl(218, 44%, 22%);
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.qr-component__paragraph {
+  color: hsl(220, 15%, 55%);
+  margin-bottom: 15px;
 }
